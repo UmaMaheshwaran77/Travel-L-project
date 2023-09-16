@@ -1,0 +1,96 @@
+:root{
+    --Black-color:#000000;
+    --nav:#212832;
+    --White:#FFFFFF;
+    --Orange:#EC682C;
+    --Blue:#4B40C5;
+    --Cream:#FFF1DA;
+    --Yellow:#F0BB1F;
+    --flight-bc:#FBEBBC;
+    --Make-payment-orange:#F15A2B;
+    --Maroon: #7F2736;
+    --Violet: #5E6282;
+}
+*,
+  *::after,
+  *::before {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    font-family: "Poppins", Montserrat ;
+  }
+  .wrapper {
+    width: 1440px;
+    margin:0 auto;
+  }
+  /* Buttons*/
+  .btn {
+    margin:0 10px;
+    padding: 10px 30px;
+    border-radius: 24px;
+    color: #ffffff;
+    background-color:#EC682C;
+    display:inline-block;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    position: relative;
+  }
+  .btn orange{
+    background: var(--orange-color);
+   }
+   .btn blue{
+    background: var(--blue-color);
+   }
+   header {
+    height: 100vh;
+    width: 100%;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    position: fixed;
+    width: 1134px;
+    top: 0;
+    padding: 36px 0;
+    z-index: 100;
+    transition: all 500ms ease;
+  }
+  nav .logo {
+    font-family: "Peralta", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color:#000000
+  }
+  nav ul {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+    margin: 0;
+  }
+  nav ul li a {
+    font-weight: strong;
+    font-size: 16px;
+    color:#000000
+  }
+  .Page-1 Image  {
+    height: 927px;
+    Width:1440px;
+    opacity:90%;
+    align-self: auto;
+    padding:0rem;
+    margin:10px;
+   bottom:1438px;
+  }
+  .left h1 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    line-height:normal;
+    margin-top: 0;
+    position: relative;
+    display: grid;
+  }
